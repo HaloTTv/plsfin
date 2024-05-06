@@ -2,31 +2,69 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Movement Settings")]
-    public float speed = 5.0f; // Player movement speed
+    [Header("Basic Movement Settings")]
+    public float walkSpeed = 5.0f;
+    public float sprintSpeed = 10.0f;
+    private float currentSpeed;
+
+    [Header("Jump Settings")]
+    public float jumpForce = 8.0f;
+    public LayerMask groundLayer;
+    public float checkGroundRadius = 0.1f;
+    public Transform groundCheck;
 
     [Header("Combat Settings")]
-    public GameObject sword;  // Reference to the sword GameObject
-    public Animator animator; // Animator for handling animations
-    public float attackDamage = 25f; // Damage output of the sword
-    public float attackRange = 2f; // Range of the sword attack
-    public LayerMask enemyLayer; // Layer on which enemy objects are placed
+    public GameObject sword;
+    public Animator animator;
+    public float attackDamage = 25f;
+    public float attackRange = 2f;
+    public LayerMask enemyLayer;
 
     [Header("Health Settings")]
-    [SerializeField] private float health = 100f; // Player's health
+    [SerializeField] private float health = 100f;
+
+    [Header("Animation Clips")]
+    public AnimationClip idleAnimation;
+    public AnimationClip lightAttackAnimation;
+    public AnimationClip heavyAttackAnimation;
+
+    private Rigidbody rb;
+    private bool isGrounded;
+    private bool jumpRequested = false;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+        currentSpeed = walkSpeed;
+    }
 
     void Update()
     {
+        isGrounded = Physics.CheckSphere(groundCheck.position, checkGroundRadius, groundLayer);
         HandleMovement();
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
+            jumpRequested = true;
+        }
         HandleAttack();
+    }
+
+    void FixedUpdate()
+    {
+        if (jumpRequested)
+        {
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            jumpRequested = false;
+        }
     }
 
     private void HandleMovement()
     {
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
-        Vector3 movement = new Vector3(horizontal, 0, vertical) * speed * Time.deltaTime;
-        transform.Translate(movement, Space.World);
+        Vector3 movementDirection = (transform.right * horizontal + transform.forward * vertical).normalized;
+        currentSpeed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed;
+        transform.Translate(movementDirection * currentSpeed * Time.deltaTime, Space.World);
     }
 
     private void HandleAttack()
@@ -34,12 +72,12 @@ public class PlayerController : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) // Left mouse button for light attack
         {
             animator.SetTrigger("LightAttack");
-            PerformAttack(); // Ensure attack is performed alongside animation
+            PerformAttack();
         }
         if (Input.GetMouseButtonDown(1)) // Right mouse button for heavy attack
         {
             animator.SetTrigger("HeavyAttack");
-            PerformAttack(); // Ensure attack is performed alongside animation
+            PerformAttack();
         }
     }
 
@@ -72,4 +110,15 @@ public class PlayerController : MonoBehaviour
     {
         Debug.Log("Player Died!");
     }
+
+        private RuntimeAnimatorController CreateAnimatorController()
+    {
+        // This method dynamically creates an AnimatorController based on assigned clips
+        var controller = new AnimatorOverrideController();
+        controller["Idle"] = idleAnimation;
+        controller["LightAttack"] = lightAttackAnimation;
+        controller["HeavyAttack"] = heavyAttackAnimation;
+        return controller;
+    }
 }
+
