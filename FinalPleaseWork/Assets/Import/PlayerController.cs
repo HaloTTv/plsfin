@@ -13,29 +13,17 @@ public class PlayerController : MonoBehaviour
     public float checkGroundRadius = 0.1f;
     public Transform groundCheck;
 
-    [Header("Combat Settings")]
-    public GameObject sword;
-    public Animator animator;
-    public float attackDamage = 25f;
-    public float attackRange = 2f;
-    public LayerMask enemyLayer;
-
-    [Header("Health Settings")]
-    [SerializeField] private float health = 100f;
-
-    [Header("Animation Clips")]
-    public AnimationClip idleAnimation;
-    public AnimationClip lightAttackAnimation;
-    public AnimationClip heavyAttackAnimation;
-
     private Rigidbody rb;
     private bool isGrounded;
     private bool jumpRequested = false;
+
+    Animator animator;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         currentSpeed = walkSpeed;
+         animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -46,7 +34,10 @@ public class PlayerController : MonoBehaviour
         {
             jumpRequested = true;
         }
-        HandleAttack();
+        if (Input.GetMouseButtonDown(0)) // Assuming left mouse click triggers the swing
+        {
+            animator.SetTrigger("swingSword");
+        }
     }
 
     void FixedUpdate()
@@ -66,59 +57,4 @@ public class PlayerController : MonoBehaviour
         currentSpeed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed;
         transform.Translate(movementDirection * currentSpeed * Time.deltaTime, Space.World);
     }
-
-    private void HandleAttack()
-    {
-        if (Input.GetMouseButtonDown(0)) // Left mouse button for light attack
-        {
-            animator.SetTrigger("LightAttack");
-            PerformAttack();
-        }
-        if (Input.GetMouseButtonDown(1)) // Right mouse button for heavy attack
-        {
-            animator.SetTrigger("HeavyAttack");
-            PerformAttack();
-        }
-    }
-
-    void PerformAttack()
-    {
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, attackRange, enemyLayer))
-        {
-            if (hit.collider != null && hit.collider.gameObject.CompareTag("Enemy"))
-            {
-                EnemyHealth enemyHealth = hit.collider.GetComponent<EnemyHealth>();
-                if (enemyHealth != null)
-                {
-                    enemyHealth.TakeDamage(attackDamage);
-                }
-            }
-        }
-    }
-
-    public void TakeDamage(float damage)
-    {
-        health -= damage;
-        if (health <= 0)
-        {
-            Die();
-        }
-    }
-
-    private void Die()
-    {
-        Debug.Log("Player Died!");
-    }
-
-        private RuntimeAnimatorController CreateAnimatorController()
-    {
-        // This method dynamically creates an AnimatorController based on assigned clips
-        var controller = new AnimatorOverrideController();
-        controller["Idle"] = idleAnimation;
-        controller["LightAttack"] = lightAttackAnimation;
-        controller["HeavyAttack"] = heavyAttackAnimation;
-        return controller;
-    }
 }
-
