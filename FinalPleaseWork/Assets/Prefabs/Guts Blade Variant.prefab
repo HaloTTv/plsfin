@@ -64,7 +64,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Guts Blade Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: 8f3c9a022c3f8004b876d7f5bae9afa9, type: 3}
     m_RemovedGameObjects:
     - {fileID: 7869873546869171050, guid: 8f3c9a022c3f8004b876d7f5bae9afa9, type: 3}
     m_AddedGameObjects: []
@@ -113,6 +114,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHand: {fileID: 0}
   originalPosition: {fileID: 3310402185848395256}
+  playerAnimator: {fileID: 0}
+  swordCollider: {fileID: 0}
 --- !u!4 &3310402185848395256 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8f3c9a022c3f8004b876d7f5bae9afa9, type: 3}

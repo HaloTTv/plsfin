@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     private bool jumpRequested = false;
 
     Animator animator;
+  
+
 
     void Start()
     {
@@ -27,18 +29,25 @@ public class PlayerController : MonoBehaviour
     }
 
     void Update()
-    {
+    { 
+         if (Input.GetMouseButtonDown(0)) // Assuming left mouse click triggers the swing
+        {
+            animator.SetTrigger("swingSword");
+        }
+    
         isGrounded = Physics.CheckSphere(groundCheck.position, checkGroundRadius, groundLayer);
         HandleMovement();
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             jumpRequested = true;
         }
-        if (Input.GetMouseButtonDown(0)) // Assuming left mouse click triggers the swing
-        {
-            animator.SetTrigger("swingSword");
-        }
+               if (Input.GetMouseButtonDown(0) && animator.GetBool("IsHoldingSword"))
+    {
+        // If both conditions are met, trigger the sword swing animation
+        animator.SetTrigger("swingSword");
     }
+    }
+       
 
     void FixedUpdate()
     {
