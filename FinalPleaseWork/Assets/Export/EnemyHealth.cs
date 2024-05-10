@@ -4,30 +4,34 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public float maxHealth = 100f;  // Maximum health of the enemy
-    private float currentHealth;    // Current health of the enemy
+    public float maxHealth = 100f;
+    private float currentHealth;
+    public GameObject damageEffect; // Prefab for visual effect on damage
 
-    // Start is called before the first frame update
     void Start()
     {
-        currentHealth = maxHealth;  // Initialize health
+        currentHealth = maxHealth;
     }
 
-    // Method to apply damage to the enemy
     public void TakeDamage(float amount)
     {
-        currentHealth -= amount;    // Reduce health by the amount of damage taken
+        currentHealth -= amount;
         Debug.Log("Enemy took damage: " + amount + ", Current Health: " + currentHealth);
+
+        if (damageEffect != null)
+        {
+            Instantiate(damageEffect, transform.position, Quaternion.identity);
+        }
 
         if (currentHealth <= 0)
         {
-            Die();                  // Call the Die method if health goes below zero
+            Die();
         }
     }
 
     private void Die()
     {
         Debug.Log("Enemy Died!");
-        Destroy(gameObject);        // Destroys the enemy GameObject from the scene
+        Destroy(gameObject);
     }
 }

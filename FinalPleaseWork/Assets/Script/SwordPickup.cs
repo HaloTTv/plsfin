@@ -8,6 +8,10 @@ public class SwordPickup : MonoBehaviour
     public Collider swordCollider; // Collider used for damage calculation
     private bool isHeld = false;
 
+    public float attackDamage = 20f;
+    public float attackRange = 1.5f;
+    public LayerMask enemyLayer; // Layer to identify enemies
+
     void Start()
     {
         swordCollider.enabled = false; // Disable the collider initially
@@ -22,6 +26,12 @@ public class SwordPickup : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.Q) && isHeld)
         {
             Drop();
+        }
+
+        // Trigger attack with left mouse button when the sword is held
+        if (Input.GetMouseButtonDown(0) && isHeld)
+        {
+            PerformAttack();
         }
     }
 
@@ -45,4 +55,22 @@ public class SwordPickup : MonoBehaviour
         swordCollider.enabled = false; // Disable the collider when dropped
         playerAnimator.SetBool("IsHoldingSword", false); // End the holding sword animation
     }
+
+    void PerformAttack()
+    {
+        // Use a Raycast to detect enemies in range and in front of the sword
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.forward, out hit, attackRange, enemyLayer))
+        {
+            if (hit.collider != null && hit.collider.CompareTag("Enemy"))
+            {
+                // Apply damage to the enemy
+                hit.collider.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
+            }
+        }
+
+        // Optional: trigger attack animation
+        playerAnimator.SetTrigger("SwingSword");
+    }
 }
+
