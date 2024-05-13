@@ -1,27 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float health = 100f;  // Initial health of the player
+    public float health = 100f;
+    public UnityEvent onDeath; // Create an event for when the player dies
 
-    // Method to be called by other scripts to apply damage to the player
-    public void TakeDamage(float damage)
+    public void TakeDamage(float amount)
     {
-        health -= damage;
-        Debug.Log($"Player now has {health} health.");
-
+        health -= amount;
         if (health <= 0)
         {
-            Die();  // Handle player death
+            health = 0; // Prevent health from going negative
+            onDeath.Invoke(); // Trigger the death event
         }
     }
 
-    private void Die()
+    private void Reset()
     {
-        Debug.Log("Player Died!");
-        // Here you can add logic for what happens when the player dies, e.g., restart the level, show a death screen, etc.
-        // This can be handled through a game manager or similar system.
+        // Reset health to full or to a specific start value when needed
+        health = 100f;
     }
 }

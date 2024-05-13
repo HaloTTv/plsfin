@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7114108401635350373}
   - component: {fileID: 139345405506906860}
   - component: {fileID: 1178022193323421600}
-  - component: {fileID: -2583057067834350717}
+  - component: {fileID: -1157940778767967408}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -108,7 +108,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-2583057067834350717
+--- !u!114 &-1157940778767967408
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,4 +121,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  isHoming: 0
+  isHoming: 1

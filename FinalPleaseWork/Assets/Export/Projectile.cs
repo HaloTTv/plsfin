@@ -5,40 +5,36 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    public float speed = 10f;
-    public bool isHoming;
     private Transform target;
+    private float damage;
 
-    void Start()
+    public void SetTarget(Transform newTarget)
     {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
+        target = newTarget;
+    }
+
+    public void SetDamage(float newDamage)
+    {
+        damage = newDamage;
     }
 
     void Update()
     {
-        if (isHoming && target != null)
+        if (target != null)
         {
-            Vector3 direction = (target.position - transform.position).normalized;
-            transform.position += direction * speed * Time.deltaTime;
-        }
-        else
-        {
-            transform.Translate(Vector3.forward * speed * Time.deltaTime);
+            // Assume the projectile moves towards the target each frame
+            float speed = 10f; // Adjust speed as needed
+            transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         }
     }
 
-    public void SetSpeed(float newSpeed)
+    void OnTriggerEnter(Collider other)
     {
-        speed = newSpeed;
-    }
-
-    public void SetHoming(bool homing)
-    {
-        isHoming = homing;
-    }
-
-    internal void SetDamage(float v)
-    {
-        throw new NotImplementedException();
+        if (other.transform == target)
+        {
+            // Assuming the target has a method to take damage
+            target.GetComponent<PlayerHealth>().TakeDamage(damage);
+            Destroy(gameObject); // Destroy projectile after hitting the target
+        }
     }
 }

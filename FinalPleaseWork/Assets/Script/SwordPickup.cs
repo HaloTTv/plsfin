@@ -6,7 +6,7 @@ public class SwordPickup : MonoBehaviour
     public Transform originalPosition;
     public Animator playerAnimator; // Reference to the player's animator
     public Collider swordCollider; // Collider used for damage calculation
-    private bool isHeld = false;
+    private bool isHeld = true; // Start with the sword being held
 
     public float attackDamage = 20f;
     public float attackRange = 1.5f;
@@ -14,16 +14,19 @@ public class SwordPickup : MonoBehaviour
 
     void Start()
     {
-        swordCollider.enabled = false; // Disable the collider initially
+        // Initialize as if the sword is already picked up
+        transform.SetParent(playerHand);
+        transform.localPosition = Vector3.zero;
+        transform.localRotation = Quaternion.identity;
+        GetComponent<Rigidbody>().isKinematic = true;
+        swordCollider.enabled = true; // Enable the collider for damage calculation
+        playerAnimator.SetBool("IsHoldingSword", true); // Assume sword holding animation state
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && !isHeld && Vector3.Distance(transform.position, playerHand.position) < 2f)
-        {
-            PickUp();
-        }
-        else if (Input.GetKeyDown(KeyCode.Q) && isHeld)
+        // Drop the sword with the Q key
+        if (Input.GetKeyDown(KeyCode.Q) && isHeld)
         {
             Drop();
         }
@@ -33,17 +36,6 @@ public class SwordPickup : MonoBehaviour
         {
             PerformAttack();
         }
-    }
-
-    void PickUp()
-    {
-        isHeld = true;
-        transform.SetParent(playerHand);
-        transform.localPosition = Vector3.zero;
-        transform.localRotation = Quaternion.identity;
-        GetComponent<Rigidbody>().isKinematic = true;
-        swordCollider.enabled = true; // Enable the collider when picked up
-        playerAnimator.SetBool("IsHoldingSword", true); // Trigger the holding sword animation
     }
 
     void Drop()
@@ -73,4 +65,3 @@ public class SwordPickup : MonoBehaviour
         playerAnimator.SetTrigger("SwingSword");
     }
 }
-

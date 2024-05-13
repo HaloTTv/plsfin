@@ -8,49 +8,44 @@ public class EnemyAI : MonoBehaviour
     [Header("General Settings")]
     public float health = 100f;
     public float damage = 10f;
-    public float moveSpeed = 5f;
+    public float moveSpeed = 3f; // Adjust based on enemy type
 
     [Header("Shooting Settings")]
-    public bool canShoot;
-    public float shootingInterval = 2f;
+    public bool canShoot = true;
+    public float shootingInterval = 3f;
     public GameObject projectilePrefab;
     public Transform projectileSpawnPoint;
 
-    [Header("Explosion Settings")]
-    public bool canExplode;
-    public float explosionRadius = 5f;
-    public GameObject explosionEffect;
-
-
     private NavMeshAgent agent;
-    private Transform target; // Assuming you want to move towards a target
-
+    private Transform target; // Player target
     private float shootingTimer;
-    
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         agent.speed = moveSpeed; // Set NavMeshAgent speed
         target = GameObject.FindGameObjectWithTag("Player").transform; // Find the player
+        if (target == null)
+        {
+            Debug.LogError("Player not found! Make sure your player is tagged correctly.");
+        }
     }
 
     void Update()
     {
-        if (canShoot)
+        if (target != null)
         {
-            HandleShooting();
+            MoveToTarget();
+            if (canShoot)
+            {
+                HandleShooting();
+            }
         }
-
-       
-
-        MoveToTarget();
     }
 
     private void MoveToTarget()
     {
-        if (target != null)
-            agent.SetDestination(target.position); // Set destination to move towards the player
+        agent.SetDestination(target.position); // Set destination to move towards the player
     }
 
     private void HandleShooting()
@@ -64,20 +59,22 @@ public class EnemyAI : MonoBehaviour
     }
 
     private void ShootProjectile()
+{
+    if (projectilePrefab && projectileSpawnPoint)
     {
-        if (projectilePrefab && projectileSpawnPoint)
+        GameObject projectile = Instantiate(projectilePrefab, projectileSpawnPoint.position, Quaternion.identity);
+        Projectile projectileScript = projectile.GetComponent<Projectile>();
+        if (projectileScript != null)
         {
-            GameObject projectile = Instantiate(projectilePrefab, projectileSpawnPoint.position, Quaternion.identity);
-            Projectile projectileScript = projectile.GetComponent<Projectile>();
-            if (projectileScript)
-            {
-                projectileScript.SetSpeed(10f); // example speed
-                projectileScript.SetDamage(damage);
-            }
+            // Assuming your Projectile script has methods to set the target and damage
+            projectileScript.SetTarget(target);
+            projectileScript.SetDamage(damage);
+        }
+        else
+        {
+            Debug.LogError("Projectile script not found on instantiated projectile object.");
         }
     }
+}
 
-   
-
-    // All other methods remain unchanged
 }
