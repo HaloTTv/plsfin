@@ -1,0 +1,1590 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a6b9796d1c0440eba061ace5e9dff6, type: 3}
+  m_Name: Start sword button pixel art
+  m_EditorClassIdentifier: 
+  assetsData:
+  - rid: 2155062897805885463
+  - rid: 2155062897805885471
+  - rid: 2155062897805885492
+  - rid: 2155062897805885499
+  - rid: 2155062897805885506
+  - rid: 2155062897805885513
+  - rid: 2155062897805885520
+  - rid: 2155062897805885527
+  - rid: 2155062897805885534
+  - rid: 2155062897805885541
+  - rid: 2155062897805885548
+  - rid: 2155062897805885555
+  - rid: 2155062897805885562
+  - rid: 2155062897805885569
+  - rid: 2155062897805885576
+  - rid: 2155062897805885583
+  currentMode: TextToSprite
+  m_Data:
+  - rid: 2155062897805885451
+  - rid: 2155062897805885452
+  - rid: 2155062897805885453
+  - rid: 2155062897805885454
+  - rid: 2155062897805885455
+  - rid: 2155062897805885456
+  - rid: 2155062897805885464
+  preRefinedArtifact:
+    rid: -2
+  refinedArtifact:
+    rid: -2
+  selectedArtifact:
+    rid: 2155062897805885569
+  m_Operators:
+  - rid: 2155062897805885457
+  - rid: 2155062897805885458
+  - rid: 2155062897805885459
+  - rid: 2155062897805885460
+  - rid: 2155062897805885461
+  - rid: 2155062897805885462
+  m_PreRefineOperators: []
+  m_ExportedArtifacts: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 2155062897805885451
+      type: {class: FeedbackManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_Liked:
+          m_Values: []
+        m_Disliked:
+          m_Values: []
+    - rid: 2155062897805885452
+      type: {class: DefaultStyleData, ns: Unity.Muse.Sprite.Data, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885453
+      type: {class: GenerateButtonData, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+    - rid: 2155062897805885454
+      type: {class: MainUI/UISize, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_NodeListWidth: 300
+        m_NodeListRefineWidth: 300
+        m_AssetListRefineWidth: 200
+    - rid: 2155062897805885455
+      type: {class: SessionData, ns: Unity.Muse.Sprite.Data, asm: Unity.Muse.Sprite}
+      data:
+        m_SessionId: c51cfe67-d235-4be9-bbf7-ba904312311d
+        sessionLoaded: 
+    - rid: 2155062897805885456
+      type: {class: BookmarkManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_BookmarkedArtifacts:
+          m_Values: []
+        m_IsFilterEnabled: 0
+    - rid: 2155062897805885457
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 3
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885458
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - sword horizontal
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885459
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.15
+          - 512
+          - 512
+          - 1
+          - 1
+          - 21334
+          - 0
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 0
+          - 
+          - 
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885460
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAf2klEQVR4Ae3d23qktrYG0O586/1fObtZa1dCYQ4SSGJKGr6xiwIdxhTwF3Y6v375IkCAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQeFPg95udz97333++cgx+//nK2d++BAgQIEDgSMAN5Uim0vbcm/7RMISBIxnbCRAgQCBFQABIUSqwT6kb/3YogsBWxGsCBAgQSBEQAFKUHuxT68a/HZIgsBXxmgABAgTOBASAM52H77W6+X+GKQR8JHwnQIAAgSsBAeBK6Mb7rW/86yEKAWsNPxMgQIDAkYAAcCRzc/ubN//1kAWBtYafCRAgQGArIABsRR68jnLz/0xBCPhI+E6AAAECW4G/thu8vicQ7eZ/bxaOIkCAAIFZBASAgSstlAxcXFMjQIDAQwG/AngIuBwe/UbrVwEFiqwJAgQIDCbgCcDDgka/+T+cnsMJECBAYFABAWDQwq6nJaSsNfxMgAABAouAXwE8WAe93Vj9KuBBsR1KgACBwQQ8ARisoKZDgAABAgRSBASAFKWdfXr79L8zBZsIECBAYGIBAWCi4gstExXbVAkQIHAhIABcAHmbAAECBAiMKCAA3KiqT9I30BxCgAABAqEEBIBQ5TAYAgQIECDQRkAAaOMcphdPL8KUwkAIECDwqoAA8Cq/zgkQIECAwDsCAsA77nolQIAAAQKvCggAr/LrnAABAgQIvCMgALzjrlcCBAgQIPCqgACQye+P6DLB7E6AAAECIQUEgJBlMSgCBAgQIFBXQACo66t1AgQIECAQUkAAyCiLx/8ZWHYlQIAAgdACAkDo8hgcAQIECBCoIyAA1HHVKgECBAgQCC0gAIQuj8ERIECAAIE6AgJAHVetEiBAgACB0AICQOjyGBwBAgQIEKgjIADUcdUqAQIECBAILSAAhC6PwREgQIAAgToCAkAdV60SIECAAIHQAgJA6PIYHAECBAgQqCMgANRxDdvq7z9fYQdnYAQIECDQTEAAaEatIwIECBAgEEdAAIhTCyMhQIAAAQLNBASAZtTvd+Tx//s1MAICBAhEERAAolTCOAgQ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IOAJQANkXRAgQIAAgWgCngC8WJHITwF8+n9xYeiaAAECDQQEgAbIZ11EDAFu/mcV8x4BAgTGEBAAAtQxUghw8w+wIAyBAAECDQQEgAbIKV1ECAFu/imVsg8BAgTGEBAAAtXxzRDg5h9oIRgKAQIEGggIAA2Qc7p4IwS4+edUyL4ECBAYQ0AACFjHliHAzT/gAjAkAgQINBAQABog3+2iZhBw479bFccRIEBgDAEBoIM6lgwCbvwdFNwQCRAg0EBAAGiAXLKLO2HATb9kBbRFgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIdCrwf/mJziDp93CaAAAAAElFTkSuQmCC
+          - 
+          - False
+          - 512
+          - 512
+          - 0.58
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885461
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885462
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885463
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 9e3a0e57-7dfb-4d48-a320-4686363fd61a
+        Seed: 20073
+        m_Operators:
+        - rid: 2155062897805885465
+        - rid: 2155062897805885466
+        - rid: 2155062897805885467
+        - rid: 2155062897805885468
+        - rid: 2155062897805885469
+        - rid: 2155062897805885470
+        history:
+        - rid: 2155062897805885463
+        m_UnsafeContent: 1
+    - rid: 2155062897805885464
+      type: {class: GenerateCountData, ns: Unity.Muse.Sprite.Data, asm: Unity.Muse.Sprite}
+      data:
+        m_Counter: 0
+    - rid: 2155062897805885465
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 2
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885466
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Start sword button pixel art
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885467
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.53
+          - 512
+          - 512
+          - 1
+          - 1
+          - 20073
+          - 9e3a0e57-7dfb-4d48-a320-4686363fd61a
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885468
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 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
+          - True
+          - 512
+          - 512
+          - 0.47
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885469
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885470
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885471
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: d0dba3ac-0843-4097-8511-ce669faa05f6
+        Seed: 36144
+        m_Operators:
+        - rid: 2155062897805885472
+        - rid: 2155062897805885473
+        - rid: 2155062897805885474
+        - rid: 2155062897805885475
+        - rid: 2155062897805885476
+        - rid: 2155062897805885477
+        history:
+        - rid: 2155062897805885471
+        m_UnsafeContent: 1
+    - rid: 2155062897805885472
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 2
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885473
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Start sword button pixel art
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885474
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.53
+          - 512
+          - 512
+          - 1
+          - 1
+          - 36144
+          - d0dba3ac-0843-4097-8511-ce669faa05f6
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885475
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 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
+          - True
+          - 512
+          - 512
+          - 0.47
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885476
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885477
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885492
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 2d62e725-9d02-4529-98bd-d608be778eaa
+        Seed: 25716
+        m_Operators:
+        - rid: 2155062897805885493
+        - rid: 2155062897805885494
+        - rid: 2155062897805885495
+        - rid: 2155062897805885496
+        - rid: 2155062897805885497
+        - rid: 2155062897805885498
+        history:
+        - rid: 2155062897805885492
+        m_UnsafeContent: 0
+    - rid: 2155062897805885493
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 2
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885494
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Start sword button pixel art
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885495
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.53
+          - 512
+          - 512
+          - 1
+          - 1
+          - 25716
+          - 2d62e725-9d02-4529-98bd-d608be778eaa
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885496
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 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
+          - True
+          - 512
+          - 512
+          - 1.00
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885497
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885498
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885499
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 95a97685-0a0b-493a-8135-351ae37c8a64
+        Seed: 1126
+        m_Operators:
+        - rid: 2155062897805885500
+        - rid: 2155062897805885501
+        - rid: 2155062897805885502
+        - rid: 2155062897805885503
+        - rid: 2155062897805885504
+        - rid: 2155062897805885505
+        history:
+        - rid: 2155062897805885499
+        m_UnsafeContent: 1
+    - rid: 2155062897805885500
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 2
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885501
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Start sword button pixel art
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885502
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.53
+          - 512
+          - 512
+          - 1
+          - 1
+          - 1126
+          - 95a97685-0a0b-493a-8135-351ae37c8a64
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885503
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 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
+          - True
+          - 512
+          - 512
+          - 1.00
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885504
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885505
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885506
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 76873209-f85b-498b-bde6-0e9cdbd0e528
+        Seed: 51598
+        m_Operators:
+        - rid: 2155062897805885507
+        - rid: 2155062897805885508
+        - rid: 2155062897805885509
+        - rid: 2155062897805885510
+        - rid: 2155062897805885511
+        - rid: 2155062897805885512
+        history:
+        - rid: 2155062897805885506
+        m_UnsafeContent: 0
+    - rid: 2155062897805885507
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 2
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885508
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Start sword button pixel art
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885509
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 1.00
+          - 512
+          - 512
+          - 1
+          - 1
+          - 51598
+          - 76873209-f85b-498b-bde6-0e9cdbd0e528
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885510
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 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
+          - True
+          - 512
+          - 512
+          - 0.00
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885511
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885512
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885513
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: c159a9d7-b62b-4f93-b958-020b22e8ede9
+        Seed: 45360
+        m_Operators:
+        - rid: 2155062897805885514
+        - rid: 2155062897805885515
+        - rid: 2155062897805885516
+        - rid: 2155062897805885517
+        - rid: 2155062897805885518
+        - rid: 2155062897805885519
+        history:
+        - rid: 2155062897805885513
+        m_UnsafeContent: 0
+    - rid: 2155062897805885514
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 2
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885515
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Start sword button pixel art
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885516
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 1.00
+          - 512
+          - 512
+          - 1
+          - 1
+          - 45360
+          - c159a9d7-b62b-4f93-b958-020b22e8ede9
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885517
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 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
+          - True
+          - 512
+          - 512
+          - 0.00
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885518
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885519
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885520
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: a17971ec-5067-42b1-aaa0-1811cc6baa6c
+        Seed: 40579
+        m_Operators:
+        - rid: 2155062897805885521
+        - rid: 2155062897805885522
+        - rid: 2155062897805885523
+        - rid: 2155062897805885524
+        - rid: 2155062897805885525
+        - rid: 2155062897805885526
+        history:
+        - rid: 2155062897805885520
+        m_UnsafeContent: 0
+    - rid: 2155062897805885521
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 2
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885522
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - sword horizontal
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885523
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 1.00
+          - 512
+          - 512
+          - 1
+          - 1
+          - 40579
+          - a17971ec-5067-42b1-aaa0-1811cc6baa6c
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885524
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - iVBORw0KGgoAAAANSUhEUgAAAGQAAABQCAYAAADvCdDvAAAApElEQVR4Ae3QMQEAAADCoPVPbQo/iEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwICBz8AAfVAAAXYtCEgAAAAASUVORK5CYII=
+          - iVBORw0KGgoAAAANSUhEUgAAAGQAAABQCAYAAADvCdDvAAASPUlEQVR4Ae1aC5CeVXl+v020nQ7tjJAL4lQUhAajkmQ3u/9uIksuVKAMUkpQMcUkkhSCtWplpqPFmGnV8YKaRkJCVghM5CJjQgKCgSQISPa+uSy5YC5qZ5wRkbRWRoXd/b8+z/ue9/zf9+8fsuuwjsx8J/m/c857P897Lt9lRYpSIFAgUCBQIFAgUCBQIFAgUCBQIFAgUCBQIFAgUCBQIFAgUCBQIFAgUCBQIFAgUCBQIFAgUCBQIPAngkAylnGkT/1VOpb2X0+2kwv+b0RY172eBvV6jnWkk3P8WAyy2vnlD/x8LNy8bmxuXfCWEcc6Jgmp5X1rw+lKvrznF+JtufYl2f2pt4pgY1sxdCCqbZ1psrt3n6q0FYMHZAv0E6zn3X2nyvQZxyWFzh7ysRGsGDggWxvzOtOmH4/2uFf43kkd9j+X0aEg+b6nqF30szZUJhjZu8fiOp8+QNu791SNR+Ng7DDkNuhnNGVMtyyujLg66AkJ0MI2f985RabXH5fpDcdl5RvfKSv/7J3GH4cq+0M34dShTqAnqKfPBCCoV/459EhfCPsZPnUoJ6y9jX5KWyxBVvlBjm3yp9E25TK/5A2wg980xEsZtUlZ9GMclKctHyOaoylUH7OSpmV5qOWMnH3SUgScfOgl6bvpTJkx40UNPh2HaeXTmANCO63zOYs+B/jBl6S890xrB6tpkkhKMfJRytCpp02Uvr7T1OTK3+7X/tbZp2vySf/8X0xVsLnSdqPP8vkgx/aWOqxI1H29WFForPitzfSts7ACEEe6BysbdPqmnPvXPvm7jU/WaEoYxmhURiE7NJibYdRMy4M6y7SN2dbbf5pc9tR/y4zGF2XGV34mK04xoAQ8zkImjzryxuCXUwg8/1FPwfCpxRExodRjW0dYppFIVwSJIsEkP7TRQrFZEelIMJMeizdJg67KodZtFDTtU9jtRsWRNXwYI5M+iVT1YT5UfsVWgw9i8ymSDh61JMEWVwCHnw4NKHgU4wxXQEnnoPG/DL4BG2gcbCic4bqSAk1tZtp0UB6EPsplO35mWrBJ+kPJmZqLGTOR1CtfkhWfPVPPgpW/3hOTpKsP4oyBapXY0FYCiSjeDrUnMS0PGX+E19c0IcN8chDjESGDJPKX/0bKj/wcgwJh618C8AmqwqAT0liYhND2LUtXSKRBxmUpDrsNXCUBEd0yXJYm8Xv44rfBPwMIBc2e3gl2vpBEOU6WOsQDXpkrMszwXAxhVagV+uBKZAmmNbFG0a1MWa9VQqpne/Cj1ckect53J2YYSiKYHR40CQ8jCeV+BYDAZWefAvB98AkKwcAglc966BWjkc8kBn5X9wRpnPkrWo5FZ2ZYIUyuYkXACWamqFxIXHeXTYwVz/8oSMAfJxJKGRVb5TJXCFq0veUUKQt0TATJnSgN9Ygj9OXBMA7qMfZRlGEr5NUS4XZd5oSJQfDbPlDv4rHu7Jyo2xOTxJldmX1hS7r0N5J2n2WDhpZvWbpCCMQlGb4mLABEIIj8oyFhYRLoGQL6JZv7lU2xR696Nw2bbW6PKBoHmmWeeSiaO1+F4+osqdxWifh4GP+7X+NO4GxrUx8y8gb8aA5HlU4E0lBSYDGakkuIA00D89dittABB5qt0d3+T7NxBQuvRmolhfstZzfVvHR0TJSbjz4Ec5gxZOBH06XSC7KtNF3Il66z5OZjD8vjpSZVI5+/ocGwQrYRcCRV9Tn7E2nvmiTNzS+ooMrXAUAgSpEUJ6zqh1maEGnwWcqUwypImJxxlkGuRAWdAkEuZQ0jeo7BKvvJo2+CbayQADptdfVOksZGrBKav+R/JO09h1aCnjZHdMklxDXmrXkCzQHZsajVSTEp8zY8JfNve1K232C8WknhTIt3KRhMe/skufnwJtgKBxxnJv6XWrjdEDoDT5vlsly0sV0e/0iLlGbxbBB5fFYJ1zpp75ikA044S1kApGoHYJL5/4ukniOd3adroptm4fkA/h+bbQmmSkfHZKV97sgWeaxlFknS1AI/kNvWbHJcyZ09k6Wp6QVpKsEGErmtxW3UCfm6FY+35HLVQD2uGHl8ApKMMwokXd3kodTCyjiVa7BowiRfuOoRzMiXZceSCzF4mAw/zhwu7R1LWmVw4HcyZ/U2imuhI/68Xx78HQYB03wqqxsnzRjw9sWtsn3RBaprp6nx2jtPF/4+s/8e+eyBe5VP+/rUBV3qxx9nvP5spnK28je3bQdk4G8nnpjHjbcZT7CYqFC7bIqnOcoMDf4edZChLtusL8JDH+qUfrlyCLb2A58yuT5k9OlznMzbsNPGTRnQaKM88LLtNifAyjHz2qYneg5o69e3yJP/fIXzK3WEGyTMmNZvPYha5MlPXF6RCa0LVz0kP1wOGzpFsmxzd+GaB3WrUH4ZhhH/EzdSHvzgZ863tiidjw/MbYqtRWvIc+tJcddUhwlC/hM3vl/m3Er5oO9+1R4MxhpN2gd/5/L3y9w10An9WDPcjLzRK3Z5s6Z+3SzjYYJQ77wBNm+DTZ4/iIvj2rkUtPWg8e6A/eXz6UFLre0eUpVkzP7yfTrQZz690DSqrypNMHRMMvuWjWEcoOEfd27u79hl5el//XDUVnnVJSk2tElenhr4rAKvWoJ9sjKWcr0UqOd51GCpTTUe2ZZg5sOLj1X9aaIo59yqOJxfYVsrjKP1v+5FnlJ5+pP5SZxNjJr21dHyxQ2y69+WVsw5IDGA0HC6S1bzYx8CUTZLBJ3dyKOhwM+KvRo/x8vqD2OQqWBrfQJ29K9C4ZKVzWbJZTTWbMDOQE3dGvz3frUtCj190wJtZxOCRVQpQwO/hxGQ+OP6yrW5V2ZobIf91Og1+NXy3qde1r7TWTvd6yyPW4O/D8nStY3Rc8uq0sPGZrQT6BkfsdfScx88T0KbZxjbWqtt+HQ50t2f05gVb6N+6qZl8jR+xHrWlzbCL3KXOX8ZbSwpDnMNjEYdbK+zjpyWcRSdkkd6Vp79rA55tXSddiI+6Nyvc7pu1+leB1tJvCmo0svxQ3yZmNWP2q4kg34T6oE+jB90na/jVdmQ7Cr+rn//BF4jEe98yd328u5KB+sySK7vobnlRzpkUOUKD14ydHVXMe0cAbEW3YkZXvSrHgIjVHZeZVxntpOcXrRnDfJYVDwMwOTz9hlOfnzRUDCQwcUs5sYV3PiogkNT9fh46zzAu8mqkktIypdwnBVuEcJxrLFhFmKITELo5ETcRiBGntNDIIluM+gMowcBN+4C6i56h16mDRVOylxxPvUo6n6Cmj4sUiFvJtPNM/gAy4fZnJ7bDI5NI68XWNLVhWcYlI9tXgwbw5/icwkZGsIZwqWVsUVf0TnanmE0ZVc7jJtAjk5eSwuenmHHZ6CKkRFsK518JaFBeuBRLL8KAhNV1j/lTM8UyXOStYL9OBtADT6i32qFoGjx0WFFh6zlD1wjtyX36UOjZTjP93FRVpqf00ov7VP0gfL6Bz6ILoN4WXZ/+TPKyh7quYTwqfI9H18u+1avjYHz1UK26Axs/ons+lqj3HDvlWCBTxEPXOtE9s6CDXLDCtD7f6XYxTGyZFMplOajeLQ/W5LmY0Zof4fVzUe0zkcTdEJVi1eLRvGa9Pa/MUtgWnxsgOThoZ3iLcT1914la+s2SRNflbBQpnQQrwHOMz22Q+lc1RqcTZbr7/l7UAdk9y0rnD2spiktftJPvfGTsn/d3U4OdXj2aAFYKLtuKcmyuy7V9rO33qJ19vKuj31a+m+7K06gEBFmzGHZ9fWWChieFSjnZn6Myhqx606c4EBV071f8RQp+UYwlK8qIowPPujGXV634X3aXr9oG4h8/qrwMora5CpnWbrhYq156V/1pdjOrgwn5laIEjEDpi69Rva33WcypTAz28+RdoDJaJZuuAi8Qdm/ZpXbydV8w6l3ITmqdZbdOV+eXR9swxjfc9HmsjvnQIDnV2r8Uma5d0zBDDwkHd98rxpZeuc86V8HG5mEStNB6Vh1gfHvmBeB6r/9fnOcueq7KPQ/esdceXbddzMcbxr8lGvCecGiOiQPDcm+NtMhrYT3XQH3TGZMXxr3SdfqufLtxY/Jkm/D1+qvqi1eaiWD9JgQCnCV7F+7Ws5bdr2ct/gf5I5lz2D7mE05lMnq8KPr2R+UA+vWKJUXN+6rjF8ADawQWJTk20/cyektIBUTvOfCsgeYbUmrJmPJeiYdiek8jwKmqX38IUOdHaj9LQSEycvY75wqpX/Zr/Lrkzm6xxsXchkxM8hbUagP8FCtxQ8KetsLPkpT84vS2TFB2pY+YTqNe/Eic57FqhLZS9Dvmga+fWvRbzpBxPHKang7JsQJrA/evlamXHedLFlXqmSfDPpJB+Vg23r2tNQynkJGQc0CFuTLeJurPPQ7OifpHYt0TQUNNwhIkPENsA7MQJbFa2ZqTf8HS4+oHO92GM6iNQ24GgAH78K3DvaSSfgZkL4aFtEGSXB/8O5HVe6Oug7QsnKpLL4VcjpOGhI50PSDiEFc9cF2AoNdGIPFANm7IIvid1KL1tRjwdsrpQPrbDephZcqhUsuIRT2WX6orS0rV7N9IuNlfr/Qr1DD1ezW2gBnYjo6J8tHVp8vz23cLtLYLxuSuQDCQOKAWfSrm2/WgWfocn5wNUII/CkL5xt4SOyh0k7VdVspY4IczypToBJ+sKfnl25/+MapqxtkTiaKZFZQY+NxgI1X62AkPfgAx6+bKPyaaHsk4m3oxUe2i1WVnyEOrb9dZUZ6ySWESg6yJ6aWIZepxSMtTYd0oLX4KbY7B9NnsX5V8yRobYloKtn3kLuT/Wrq2m9OkXM/1Co/vu9HUsIWwnKo+Yda89LZaQD94zew3XniADRxLdOvJkPk3GvsrKHOj5ue4cKUxiZ894Dkc/c8qaCTt/AbuOsKK4h93SLxWj3h6/aGbpHuS4wcvwqC3tOINzhhm4r0Cq6q8CqXYQlx2ZOB7nK16qGBV+ScBc0cnxz+bmdORD+TRrB8BYQE9kyHzkT8jB4VdfZypUAORV/FB1qU0QZfbfCNLeXMRkw6ZqsGlFVgpjKAx5Xi/rn1Bju2AjxxGdtIcsq4TFmkHuPtuUy9jPbzLZVOmBC1+Adejm68XzXPXrgANUddKXq+hLMlcriiKNfQJ0nX31obV24PLAu/9nYMGI0EL6/xAeTcqxsjAOzrswz4h7/Xp/LfuQm2mDDQ/KE24YcTFP9MoP5oM8TSjT+YYLnmK29FJNDVQh1rd/ecJjP550LVE4Fs2KapyAPNyOaTrJGWMUmIO9f9Xb/UkIIQu6dhzz8fbQSKgSV8WgTZ5FB3zwANezRnWwCCmvpNnY0IBv5siP1QFAzv1HdLgj1cTYDmT/xD/NOeUI5u2qc+enp4HuBEgLGkznyW45/tWN9icU3QMrFRj1L2vR2N4NTDHO3fZNHLa5oQ3+b8/OFgLCiDL2nCX3+Ur63QsDIaGn4lRzY9L914x0OpD3zhzXJ08/OMDZvFkA6Yd3Y6azH6o5v3Ka8bYKr8F9+ifb2EVaCPa9pm0o2dcFvRNi6Ii03nEUcCS70kJiTouT5qJrAe8drjoOmTnfLOkTWMqF1MONpzujJHeHlNE1LtEzexIFWWbYpnhbQcVgg4DTN/GVWShNsWpHUmm059gyXm6CaT6+ubIGUkkclpqDfake+xNtQ0B7z3F/6trtloqDcbhzdXfPVyZQCxq78wEZPhl5qYhhl4wEM5vMlq2uztPQ3xEloW2oOf0E1xeKcp/bBw4oCBFZ/2gs6/2aKcnkEqMOLLmCaE+/tZVzABiRx70PZ3m5UhSQiag2ZZ8B9naE0+9XR8lfGDhw5mb1/Pm+Tq//xrObJ5DyigsYSqT20l4J8B9Tcr4xhWVGCrnN4Q8K9fQLRnBLQV5LwtCtgk4UShJ5xVaJ19xRSM5YC26/RMq8SL2QIJSDN+DCS/3SnrpJcY60klRyHgW5arvO2qS+XY5h4N8u1XTMdg+GWNA4R7/c9NQO/uT1JTLy/HzQH3VrBmtc5U9KNczj6xp37GP4JkHFFe+a/Sz9mrlhse30/u36ow+HbumJyoHtMVEp3iwDzrSjxIcTD4/fQBPG0XpSYCgGfsSvVKGTtPf9qWR7o6OIo/zgqpwms0AVapFt0CgQKBAoECgQKBAoECgQKBAoECgQKBAoECgQKBAoECgQKBAoECgQKBAoECgQKBAoECgQKBAoECgQKBAoECgQKBAoECgWEI/D+kYnhw+bqDigAAAABJRU5ErkJggg==
+          - True
+          - 512
+          - 512
+          - 0.00
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885525
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885526
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885527
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: f7bffdd9-250f-4fed-aadd-4b21fb545c5b
+        Seed: 20074
+        m_Operators:
+        - rid: 2155062897805885528
+        - rid: 2155062897805885529
+        - rid: 2155062897805885530
+        - rid: 2155062897805885531
+        - rid: 2155062897805885532
+        - rid: 2155062897805885533
+        history:
+        - rid: 2155062897805885527
+        m_UnsafeContent: 0
+    - rid: 2155062897805885528
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 2
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885529
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - sword horizontal
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885530
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 1.00
+          - 512
+          - 512
+          - 1
+          - 1
+          - 20074
+          - f7bffdd9-250f-4fed-aadd-4b21fb545c5b
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885531
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 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
+          - True
+          - 512
+          - 512
+          - 0.00
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885532
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885533
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885534
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: b2b388ec-8a88-4c35-a6ba-37ba1bc0eb8d
+        Seed: 35152
+        m_Operators:
+        - rid: 2155062897805885535
+        - rid: 2155062897805885536
+        - rid: 2155062897805885537
+        - rid: 2155062897805885538
+        - rid: 2155062897805885539
+        - rid: 2155062897805885540
+        history:
+        - rid: 2155062897805885534
+        m_UnsafeContent: 1
+    - rid: 2155062897805885535
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 2
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885536
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - sword horizontal
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885537
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.16
+          - 512
+          - 512
+          - 1
+          - 1
+          - 35152
+          - b2b388ec-8a88-4c35-a6ba-37ba1bc0eb8d
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885538
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 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
+          - True
+          - 512
+          - 512
+          - 0.82
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885539
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885540
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885541
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 766b4c14-95e4-4084-990c-c1c970f1c89e
+        Seed: 64085
+        m_Operators:
+        - rid: 2155062897805885542
+        - rid: 2155062897805885543
+        - rid: 2155062897805885544
+        - rid: 2155062897805885545
+        - rid: 2155062897805885546
+        - rid: 2155062897805885547
+        history:
+        - rid: 2155062897805885541
+        m_UnsafeContent: 1
+    - rid: 2155062897805885542
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 2
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885543
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - sword horizontal
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885544
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.16
+          - 512
+          - 512
+          - 1
+          - 1
+          - 64085
+          - 766b4c14-95e4-4084-990c-c1c970f1c89e
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885545
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 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
+          - True
+          - 512
+          - 512
+          - 0.82
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885546
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885547
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885548
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 49c10dac-f33b-4a9c-8cab-3c92d68f8071
+        Seed: 32694
+        m_Operators:
+        - rid: 2155062897805885549
+        - rid: 2155062897805885550
+        - rid: 2155062897805885551
+        - rid: 2155062897805885552
+        - rid: 2155062897805885553
+        - rid: 2155062897805885554
+        history:
+        - rid: 2155062897805885548
+        m_UnsafeContent: 0
+    - rid: 2155062897805885549
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 3
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885550
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - sword horizontal
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885551
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.02
+          - 512
+          - 512
+          - 1
+          - 1
+          - 32694
+          - 49c10dac-f33b-4a9c-8cab-3c92d68f8071
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885552
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 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
+          - True
+          - 512
+          - 512
+          - 0.82
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885553
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885554
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885555
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: e8cc335f-557a-42bb-accf-257b14fcb20f
+        Seed: 36958
+        m_Operators:
+        - rid: 2155062897805885556
+        - rid: 2155062897805885557
+        - rid: 2155062897805885558
+        - rid: 2155062897805885559
+        - rid: 2155062897805885560
+        - rid: 2155062897805885561
+        history:
+        - rid: 2155062897805885555
+        m_UnsafeContent: 0
+    - rid: 2155062897805885556
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 3
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885557
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - sword horizontal
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885558
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.02
+          - 512
+          - 512
+          - 1
+          - 1
+          - 36958
+          - e8cc335f-557a-42bb-accf-257b14fcb20f
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885559
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - iVBORw0KGgoAAAANSUhEUgAAAGQAAABQCAYAAADvCdDvAAAApElEQVR4Ae3QMQEAAADCoPVPbQo/iEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwICBz8AAfVAAAXYtCEgAAAAASUVORK5CYII=
+          - iVBORw0KGgoAAAANSUhEUgAAAGQAAABQCAYAAADvCdDvAAASPUlEQVR4Ae1aC5CeVXl+v020nQ7tjJAL4lQUhAajkmQ3u/9uIksuVKAMUkpQMcUkkhSCtWplpqPFmGnV8YKaRkJCVghM5CJjQgKCgSQISPa+uSy5YC5qZ5wRkbRWRoXd/b8+z/ue9/zf9+8fsuuwjsx8J/m/c857P897Lt9lRYpSIFAgUCBQIFAgUCBQIFAgUCBQIFAgUCBQIFAgUCBQIFAgUCBQIFAgUCBQIFAgUCBQIFAgUCBQIPAngkAylnGkT/1VOpb2X0+2kwv+b0RY172eBvV6jnWkk3P8WAyy2vnlD/x8LNy8bmxuXfCWEcc6Jgmp5X1rw+lKvrznF+JtufYl2f2pt4pgY1sxdCCqbZ1psrt3n6q0FYMHZAv0E6zn3X2nyvQZxyWFzh7ysRGsGDggWxvzOtOmH4/2uFf43kkd9j+X0aEg+b6nqF30szZUJhjZu8fiOp8+QNu791SNR+Ng7DDkNuhnNGVMtyyujLg66AkJ0MI2f985RabXH5fpDcdl5RvfKSv/7J3GH4cq+0M34dShTqAnqKfPBCCoV/459EhfCPsZPnUoJ6y9jX5KWyxBVvlBjm3yp9E25TK/5A2wg980xEsZtUlZ9GMclKctHyOaoylUH7OSpmV5qOWMnH3SUgScfOgl6bvpTJkx40UNPh2HaeXTmANCO63zOYs+B/jBl6S890xrB6tpkkhKMfJRytCpp02Uvr7T1OTK3+7X/tbZp2vySf/8X0xVsLnSdqPP8vkgx/aWOqxI1H29WFForPitzfSts7ACEEe6BysbdPqmnPvXPvm7jU/WaEoYxmhURiE7NJibYdRMy4M6y7SN2dbbf5pc9tR/y4zGF2XGV34mK04xoAQ8zkImjzryxuCXUwg8/1FPwfCpxRExodRjW0dYppFIVwSJIsEkP7TRQrFZEelIMJMeizdJg67KodZtFDTtU9jtRsWRNXwYI5M+iVT1YT5UfsVWgw9i8ymSDh61JMEWVwCHnw4NKHgU4wxXQEnnoPG/DL4BG2gcbCic4bqSAk1tZtp0UB6EPsplO35mWrBJ+kPJmZqLGTOR1CtfkhWfPVPPgpW/3hOTpKsP4oyBapXY0FYCiSjeDrUnMS0PGX+E19c0IcN8chDjESGDJPKX/0bKj/wcgwJh618C8AmqwqAT0liYhND2LUtXSKRBxmUpDrsNXCUBEd0yXJYm8Xv44rfBPwMIBc2e3gl2vpBEOU6WOsQDXpkrMszwXAxhVagV+uBKZAmmNbFG0a1MWa9VQqpne/Cj1ckect53J2YYSiKYHR40CQ8jCeV+BYDAZWefAvB98AkKwcAglc966BWjkc8kBn5X9wRpnPkrWo5FZ2ZYIUyuYkXACWamqFxIXHeXTYwVz/8oSMAfJxJKGRVb5TJXCFq0veUUKQt0TATJnSgN9Ygj9OXBMA7qMfZRlGEr5NUS4XZd5oSJQfDbPlDv4rHu7Jyo2xOTxJldmX1hS7r0N5J2n2WDhpZvWbpCCMQlGb4mLABEIIj8oyFhYRLoGQL6JZv7lU2xR696Nw2bbW6PKBoHmmWeeSiaO1+F4+osqdxWifh4GP+7X+NO4GxrUx8y8gb8aA5HlU4E0lBSYDGakkuIA00D89dittABB5qt0d3+T7NxBQuvRmolhfstZzfVvHR0TJSbjz4Ec5gxZOBH06XSC7KtNF3Il66z5OZjD8vjpSZVI5+/ocGwQrYRcCRV9Tn7E2nvmiTNzS+ooMrXAUAgSpEUJ6zqh1maEGnwWcqUwypImJxxlkGuRAWdAkEuZQ0jeo7BKvvJo2+CbayQADptdfVOksZGrBKav+R/JO09h1aCnjZHdMklxDXmrXkCzQHZsajVSTEp8zY8JfNve1K232C8WknhTIt3KRhMe/skufnwJtgKBxxnJv6XWrjdEDoDT5vlsly0sV0e/0iLlGbxbBB5fFYJ1zpp75ikA044S1kApGoHYJL5/4ukniOd3adroptm4fkA/h+bbQmmSkfHZKV97sgWeaxlFknS1AI/kNvWbHJcyZ09k6Wp6QVpKsEGErmtxW3UCfm6FY+35HLVQD2uGHl8ApKMMwokXd3kodTCyjiVa7BowiRfuOoRzMiXZceSCzF4mAw/zhwu7R1LWmVw4HcyZ/U2imuhI/68Xx78HQYB03wqqxsnzRjw9sWtsn3RBaprp6nx2jtPF/4+s/8e+eyBe5VP+/rUBV3qxx9nvP5spnK28je3bQdk4G8nnpjHjbcZT7CYqFC7bIqnOcoMDf4edZChLtusL8JDH+qUfrlyCLb2A58yuT5k9OlznMzbsNPGTRnQaKM88LLtNifAyjHz2qYneg5o69e3yJP/fIXzK3WEGyTMmNZvPYha5MlPXF6RCa0LVz0kP1wOGzpFsmxzd+GaB3WrUH4ZhhH/EzdSHvzgZ863tiidjw/MbYqtRWvIc+tJcddUhwlC/hM3vl/m3Er5oO9+1R4MxhpN2gd/5/L3y9w10An9WDPcjLzRK3Z5s6Z+3SzjYYJQ77wBNm+DTZ4/iIvj2rkUtPWg8e6A/eXz6UFLre0eUpVkzP7yfTrQZz690DSqrypNMHRMMvuWjWEcoOEfd27u79hl5el//XDUVnnVJSk2tElenhr4rAKvWoJ9sjKWcr0UqOd51GCpTTUe2ZZg5sOLj1X9aaIo59yqOJxfYVsrjKP1v+5FnlJ5+pP5SZxNjJr21dHyxQ2y69+WVsw5IDGA0HC6S1bzYx8CUTZLBJ3dyKOhwM+KvRo/x8vqD2OQqWBrfQJ29K9C4ZKVzWbJZTTWbMDOQE3dGvz3frUtCj190wJtZxOCRVQpQwO/hxGQ+OP6yrW5V2ZobIf91Og1+NXy3qde1r7TWTvd6yyPW4O/D8nStY3Rc8uq0sPGZrQT6BkfsdfScx88T0KbZxjbWqtt+HQ50t2f05gVb6N+6qZl8jR+xHrWlzbCL3KXOX8ZbSwpDnMNjEYdbK+zjpyWcRSdkkd6Vp79rA55tXSddiI+6Nyvc7pu1+leB1tJvCmo0svxQ3yZmNWP2q4kg34T6oE+jB90na/jVdmQ7Cr+rn//BF4jEe98yd328u5KB+sySK7vobnlRzpkUOUKD14ydHVXMe0cAbEW3YkZXvSrHgIjVHZeZVxntpOcXrRnDfJYVDwMwOTz9hlOfnzRUDCQwcUs5sYV3PiogkNT9fh46zzAu8mqkktIypdwnBVuEcJxrLFhFmKITELo5ETcRiBGntNDIIluM+gMowcBN+4C6i56h16mDRVOylxxPvUo6n6Cmj4sUiFvJtPNM/gAy4fZnJ7bDI5NI68XWNLVhWcYlI9tXgwbw5/icwkZGsIZwqWVsUVf0TnanmE0ZVc7jJtAjk5eSwuenmHHZ6CKkRFsK518JaFBeuBRLL8KAhNV1j/lTM8UyXOStYL9OBtADT6i32qFoGjx0WFFh6zlD1wjtyX36UOjZTjP93FRVpqf00ov7VP0gfL6Bz6ILoN4WXZ/+TPKyh7quYTwqfI9H18u+1avjYHz1UK26Axs/ons+lqj3HDvlWCBTxEPXOtE9s6CDXLDCtD7f6XYxTGyZFMplOajeLQ/W5LmY0Zof4fVzUe0zkcTdEJVi1eLRvGa9Pa/MUtgWnxsgOThoZ3iLcT1914la+s2SRNflbBQpnQQrwHOMz22Q+lc1RqcTZbr7/l7UAdk9y0rnD2spiktftJPvfGTsn/d3U4OdXj2aAFYKLtuKcmyuy7V9rO33qJ19vKuj31a+m+7K06gEBFmzGHZ9fWWChieFSjnZn6Myhqx606c4EBV071f8RQp+UYwlK8qIowPPujGXV634X3aXr9oG4h8/qrwMora5CpnWbrhYq156V/1pdjOrgwn5laIEjEDpi69Rva33WcypTAz28+RdoDJaJZuuAi8Qdm/ZpXbydV8w6l3ITmqdZbdOV+eXR9swxjfc9HmsjvnQIDnV2r8Uma5d0zBDDwkHd98rxpZeuc86V8HG5mEStNB6Vh1gfHvmBeB6r/9fnOcueq7KPQ/esdceXbddzMcbxr8lGvCecGiOiQPDcm+NtMhrYT3XQH3TGZMXxr3SdfqufLtxY/Jkm/D1+qvqi1eaiWD9JgQCnCV7F+7Ws5bdr2ct/gf5I5lz2D7mE05lMnq8KPr2R+UA+vWKJUXN+6rjF8ADawQWJTk20/cyektIBUTvOfCsgeYbUmrJmPJeiYdiek8jwKmqX38IUOdHaj9LQSEycvY75wqpX/Zr/Lrkzm6xxsXchkxM8hbUagP8FCtxQ8KetsLPkpT84vS2TFB2pY+YTqNe/Eic57FqhLZS9Dvmga+fWvRbzpBxPHKang7JsQJrA/evlamXHedLFlXqmSfDPpJB+Vg23r2tNQynkJGQc0CFuTLeJurPPQ7OifpHYt0TQUNNwhIkPENsA7MQJbFa2ZqTf8HS4+oHO92GM6iNQ24GgAH78K3DvaSSfgZkL4aFtEGSXB/8O5HVe6Oug7QsnKpLL4VcjpOGhI50PSDiEFc9cF2AoNdGIPFANm7IIvid1KL1tRjwdsrpQPrbDephZcqhUsuIRT2WX6orS0rV7N9IuNlfr/Qr1DD1ezW2gBnYjo6J8tHVp8vz23cLtLYLxuSuQDCQOKAWfSrm2/WgWfocn5wNUII/CkL5xt4SOyh0k7VdVspY4IczypToBJ+sKfnl25/+MapqxtkTiaKZFZQY+NxgI1X62AkPfgAx6+bKPyaaHsk4m3oxUe2i1WVnyEOrb9dZUZ6ySWESg6yJ6aWIZepxSMtTYd0oLX4KbY7B9NnsX5V8yRobYloKtn3kLuT/Wrq2m9OkXM/1Co/vu9HUsIWwnKo+Yda89LZaQD94zew3XniADRxLdOvJkPk3GvsrKHOj5ue4cKUxiZ894Dkc/c8qaCTt/AbuOsKK4h93SLxWj3h6/aGbpHuS4wcvwqC3tOINzhhm4r0Cq6q8CqXYQlx2ZOB7nK16qGBV+ScBc0cnxz+bmdORD+TRrB8BYQE9kyHzkT8jB4VdfZypUAORV/FB1qU0QZfbfCNLeXMRkw6ZqsGlFVgpjKAx5Xi/rn1Bju2AjxxGdtIcsq4TFmkHuPtuUy9jPbzLZVOmBC1+Adejm68XzXPXrgANUddKXq+hLMlcriiKNfQJ0nX31obV24PLAu/9nYMGI0EL6/xAeTcqxsjAOzrswz4h7/Xp/LfuQm2mDDQ/KE24YcTFP9MoP5oM8TSjT+YYLnmK29FJNDVQh1rd/ecJjP550LVE4Fs2KapyAPNyOaTrJGWMUmIO9f9Xb/UkIIQu6dhzz8fbQSKgSV8WgTZ5FB3zwANezRnWwCCmvpNnY0IBv5siP1QFAzv1HdLgj1cTYDmT/xD/NOeUI5u2qc+enp4HuBEgLGkznyW45/tWN9icU3QMrFRj1L2vR2N4NTDHO3fZNHLa5oQ3+b8/OFgLCiDL2nCX3+Ur63QsDIaGn4lRzY9L914x0OpD3zhzXJ08/OMDZvFkA6Yd3Y6azH6o5v3Ka8bYKr8F9+ifb2EVaCPa9pm0o2dcFvRNi6Ii03nEUcCS70kJiTouT5qJrAe8drjoOmTnfLOkTWMqF1MONpzujJHeHlNE1LtEzexIFWWbYpnhbQcVgg4DTN/GVWShNsWpHUmm059gyXm6CaT6+ubIGUkkclpqDfake+xNtQ0B7z3F/6trtloqDcbhzdXfPVyZQCxq78wEZPhl5qYhhl4wEM5vMlq2uztPQ3xEloW2oOf0E1xeKcp/bBw4oCBFZ/2gs6/2aKcnkEqMOLLmCaE+/tZVzABiRx70PZ3m5UhSQiag2ZZ8B9naE0+9XR8lfGDhw5mb1/Pm+Tq//xrObJ5DyigsYSqT20l4J8B9Tcr4xhWVGCrnN4Q8K9fQLRnBLQV5LwtCtgk4UShJ5xVaJ19xRSM5YC26/RMq8SL2QIJSDN+DCS/3SnrpJcY60klRyHgW5arvO2qS+XY5h4N8u1XTMdg+GWNA4R7/c9NQO/uT1JTLy/HzQH3VrBmtc5U9KNczj6xp37GP4JkHFFe+a/Sz9mrlhse30/u36ow+HbumJyoHtMVEp3iwDzrSjxIcTD4/fQBPG0XpSYCgGfsSvVKGTtPf9qWR7o6OIo/zgqpwms0AVapFt0CgQKBAoECgQKBAoECgQKBAoECgQKBAoECgQKBAoECgQKBAoECgQKBAoECgQKBAoECgQKBAoECgQKBAoECgQKBAoECgWEI/D+kYnhw+bqDigAAAABJRU5ErkJggg==
+          - True
+          - 512
+          - 512
+          - 0.82
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885560
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885561
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885562
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: b191074b-cfce-4dca-a006-38e08ea9cf84
+        Seed: 41773
+        m_Operators:
+        - rid: 2155062897805885563
+        - rid: 2155062897805885564
+        - rid: 2155062897805885565
+        - rid: 2155062897805885566
+        - rid: 2155062897805885567
+        - rid: 2155062897805885568
+        history:
+        - rid: 2155062897805885562
+        m_UnsafeContent: 1
+    - rid: 2155062897805885563
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 3
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885564
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - sword horizontal
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885565
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.02
+          - 512
+          - 512
+          - 1
+          - 1
+          - 41773
+          - b191074b-cfce-4dca-a006-38e08ea9cf84
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885566
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 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
+          - True
+          - 512
+          - 512
+          - 0.82
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885567
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885568
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885569
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: c2f8e7fa-3b9d-4137-a548-17fcc7b6c615
+        Seed: 33617
+        m_Operators:
+        - rid: 2155062897805885570
+        - rid: 2155062897805885571
+        - rid: 2155062897805885572
+        - rid: 2155062897805885573
+        - rid: 2155062897805885574
+        - rid: 2155062897805885575
+        history:
+        - rid: 2155062897805885569
+        m_UnsafeContent: 0
+    - rid: 2155062897805885570
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 3
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885571
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - sword horizontal
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885572
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.15
+          - 512
+          - 512
+          - 1
+          - 1
+          - 33617
+          - c2f8e7fa-3b9d-4137-a548-17fcc7b6c615
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885573
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAf2klEQVR4Ae3d23qktrYG0O586/1fObtZa1dCYQ4SSGJKGr6xiwIdxhTwF3Y6v375IkCAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQeFPg95udz97333++cgx+//nK2d++BAgQIEDgSMAN5Uim0vbcm/7RMISBIxnbCRAgQCBFQABIUSqwT6kb/3YogsBWxGsCBAgQSBEQAFKUHuxT68a/HZIgsBXxmgABAgTOBASAM52H77W6+X+GKQR8JHwnQIAAgSsBAeBK6Mb7rW/86yEKAWsNPxMgQIDAkYAAcCRzc/ubN//1kAWBtYafCRAgQGArIABsRR68jnLz/0xBCPhI+E6AAAECW4G/thu8vicQ7eZ/bxaOIkCAAIFZBASAgSstlAxcXFMjQIDAQwG/AngIuBwe/UbrVwEFiqwJAgQIDCbgCcDDgka/+T+cnsMJECBAYFABAWDQwq6nJaSsNfxMgAABAouAXwE8WAe93Vj9KuBBsR1KgACBwQQ8ARisoKZDgAABAgRSBASAFKWdfXr79L8zBZsIECBAYGIBAWCi4gstExXbVAkQIHAhIABcAHmbAAECBAiMKCAA3KiqT9I30BxCgAABAqEEBIBQ5TAYAgQIECDQRkAAaOMcphdPL8KUwkAIECDwqoAA8Cq/zgkQIECAwDsCAsA77nolQIAAAQKvCggAr/LrnAABAgQIvCMgALzjrlcCBAgQIPCqgACQye+P6DLB7E6AAAECIQUEgJBlMSgCBAgQIFBXQACo66t1AgQIECAQUkAAyCiLx/8ZWHYlQIAAgdACAkDo8hgcAQIECBCoIyAA1HHVKgECBAgQCC0gAIQuj8ERIECAAIE6AgJAHVetEiBAgACB0AICQOjyGBwBAgQIEKgjIADUcdUqAQIECBAILSAAhC6PwREgQIAAgToCAkAdV60SIECAAIHQAgJA6PIYHAECBAgQqCMgANRxDdvq7z9fYQdnYAQIECDQTEAAaEatIwIECBAgEEdAAIhTCyMhQIAAAQLNBASAZtTvd+Tx//s1MAICBAhEERAAolTCOAgQ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IOAJQANkXRAgQIAAgWgCngC8WJHITwF8+n9xYeiaAAECDQQEgAbIZ11EDAFu/mcV8x4BAgTGEBAAAtQxUghw8w+wIAyBAAECDQQEgAbIKV1ECAFu/imVsg8BAgTGEBAAAtXxzRDg5h9oIRgKAQIEGggIAA2Qc7p4IwS4+edUyL4ECBAYQ0AACFjHliHAzT/gAjAkAgQINBAQABog3+2iZhBw479bFccRIEBgDAEBoIM6lgwCbvwdFNwQCRAg0EBAAGiAXLKLO2HATb9kBbRFgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIdCrwf/mJziDp93CaAAAAAElFTkSuQmCC
+          - 
+          - False
+          - 512
+          - 512
+          - 0.58
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885574
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885575
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885576
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: b77dabdb-ffd5-427f-84b8-f79244d53347
+        Seed: 11268
+        m_Operators:
+        - rid: 2155062897805885577
+        - rid: 2155062897805885578
+        - rid: 2155062897805885579
+        - rid: 2155062897805885580
+        - rid: 2155062897805885581
+        - rid: 2155062897805885582
+        history:
+        - rid: 2155062897805885576
+        m_UnsafeContent: 1
+    - rid: 2155062897805885577
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 3
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885578
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - sword horizontal
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885579
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.15
+          - 512
+          - 512
+          - 1
+          - 1
+          - 11268
+          - b77dabdb-ffd5-427f-84b8-f79244d53347
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885580
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAf2klEQVR4Ae3d23qktrYG0O586/1fObtZa1dCYQ4SSGJKGr6xiwIdxhTwF3Y6v375IkCAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQeFPg95udz97333++cgx+//nK2d++BAgQIEDgSMAN5Uim0vbcm/7RMISBIxnbCRAgQCBFQABIUSqwT6kb/3YogsBWxGsCBAgQSBEQAFKUHuxT68a/HZIgsBXxmgABAgTOBASAM52H77W6+X+GKQR8JHwnQIAAgSsBAeBK6Mb7rW/86yEKAWsNPxMgQIDAkYAAcCRzc/ubN//1kAWBtYafCRAgQGArIABsRR68jnLz/0xBCPhI+E6AAAECW4G/thu8vicQ7eZ/bxaOIkCAAIFZBASAgSstlAxcXFMjQIDAQwG/AngIuBwe/UbrVwEFiqwJAgQIDCbgCcDDgka/+T+cnsMJECBAYFABAWDQwq6nJaSsNfxMgAABAouAXwE8WAe93Vj9KuBBsR1KgACBwQQ8ARisoKZDgAABAgRSBASAFKWdfXr79L8zBZsIECBAYGIBAWCi4gstExXbVAkQIHAhIABcAHmbAAECBAiMKCAA3KiqT9I30BxCgAABAqEEBIBQ5TAYAgQIECDQRkAAaOMcphdPL8KUwkAIECDwqoAA8Cq/zgkQIECAwDsCAsA77nolQIAAAQKvCggAr/LrnAABAgQIvCMgALzjrlcCBAgQIPCqgACQye+P6DLB7E6AAAECIQUEgJBlMSgCBAgQIFBXQACo66t1AgQIECAQUkAAyCiLx/8ZWHYlQIAAgdACAkDo8hgcAQIECBCoIyAA1HHVKgECBAgQCC0gAIQuj8ERIECAAIE6AgJAHVetEiBAgACB0AICQOjyGBwBAgQIEKgjIADUcdUqAQIECBAILSAAhC6PwREgQIAAgToCAkAdV60SIECAAIHQAgJA6PIYHAECBAgQqCMgANRxDdvq7z9fYQdnYAQIECDQTEAAaEatIwIECBAgEEdAAIhTCyMhQIAAAQLNBASAZtTvd+Tx//s1MAICBAhEERAAolTCOAgQ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IOAJQANkXRAgQIAAgWgCngC8WJHITwF8+n9xYeiaAAECDQQEgAbIZ11EDAFu/mcV8x4BAgTGEBAAAtQxUghw8w+wIAyBAAECDQQEgAbIKV1ECAFu/imVsg8BAgTGEBAAAtXxzRDg5h9oIRgKAQIEGggIAA2Qc7p4IwS4+edUyL4ECBAYQ0AACFjHliHAzT/gAjAkAgQINBAQABog3+2iZhBw479bFccRIEBgDAEBoIM6lgwCbvwdFNwQCRAg0EBAAGiAXLKLO2HATb9kBbRFgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIdCrwf/mJziDp93CaAAAAAElFTkSuQmCC
+          - 
+          - False
+          - 512
+          - 512
+          - 0.58
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885581
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885582
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885583
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: af1f1f46-c15b-4153-8410-da040b8ab502
+        Seed: 54939
+        m_Operators:
+        - rid: 2155062897805885584
+        - rid: 2155062897805885585
+        - rid: 2155062897805885586
+        - rid: 2155062897805885587
+        - rid: 2155062897805885588
+        - rid: 2155062897805885589
+        history:
+        - rid: 2155062897805885583
+        m_UnsafeContent: 1
+    - rid: 2155062897805885584
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 3
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885585
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - sword horizontal
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 2155062897805885586
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.15
+          - 512
+          - 512
+          - 1
+          - 1
+          - 54939
+          - af1f1f46-c15b-4153-8410-da040b8ab502
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885587
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAf2klEQVR4Ae3d23qktrYG0O586/1fObtZa1dCYQ4SSGJKGr6xiwIdxhTwF3Y6v375IkCAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQeFPg95udz97333++cgx+//nK2d++BAgQIEDgSMAN5Uim0vbcm/7RMISBIxnbCRAgQCBFQABIUSqwT6kb/3YogsBWxGsCBAgQSBEQAFKUHuxT68a/HZIgsBXxmgABAgTOBASAM52H77W6+X+GKQR8JHwnQIAAgSsBAeBK6Mb7rW/86yEKAWsNPxMgQIDAkYAAcCRzc/ubN//1kAWBtYafCRAgQGArIABsRR68jnLz/0xBCPhI+E6AAAECW4G/thu8vicQ7eZ/bxaOIkCAAIFZBASAgSstlAxcXFMjQIDAQwG/AngIuBwe/UbrVwEFiqwJAgQIDCbgCcDDgka/+T+cnsMJECBAYFABAWDQwq6nJaSsNfxMgAABAouAXwE8WAe93Vj9KuBBsR1KgACBwQQ8ARisoKZDgAABAgRSBASAFKWdfXr79L8zBZsIECBAYGIBAWCi4gstExXbVAkQIHAhIABcAHmbAAECBAiMKCAA3KiqT9I30BxCgAABAqEEBIBQ5TAYAgQIECDQRkAAaOMcphdPL8KUwkAIECDwqoAA8Cq/zgkQIECAwDsCAsA77nolQIAAAQKvCggAr/LrnAABAgQIvCMgALzjrlcCBAgQIPCqgACQye+P6DLB7E6AAAECIQUEgJBlMSgCBAgQIFBXQACo66t1AgQIECAQUkAAyCiLx/8ZWHYlQIAAgdACAkDo8hgcAQIECBCoIyAA1HHVKgECBAgQCC0gAIQuj8ERIECAAIE6AgJAHVetEiBAgACB0AICQOjyGBwBAgQIEKgjIADUcdUqAQIECBAILSAAhC6PwREgQIAAgToCAkAdV60SIECAAIHQAgJA6PIYHAECBAgQqCMgANRxDdvq7z9fYQdnYAQIECDQTEAAaEatIwIECBAgEEdAAIhTCyMhQIAAAQLNBASAZtTvd+Tx//s1MAICBAhEERAAolTCOAgQ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IOAJQANkXRAgQIAAgWgCngC8WJHITwF8+n9xYeiaAAECDQQEgAbIZ11EDAFu/mcV8x4BAgTGEBAAAtQxUghw8w+wIAyBAAECDQQEgAbIKV1ECAFu/imVsg8BAgTGEBAAAtXxzRDg5h9oIRgKAQIEGggIAA2Qc7p4IwS4+edUyL4ECBAYQ0AACFjHliHAzT/gAjAkAgQINBAQABog3+2iZhBw479bFccRIEBgDAEBoIM6lgwCbvwdFNwQCRAg0EBAAGiAXLKLO2HATb9kBbRFgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIdCrwf/mJziDp93CaAAAAAElFTkSuQmCC
+          - 
+          - False
+          - 512
+          - 512
+          - 0.58
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 2155062897805885588
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+    - rid: 2155062897805885589
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - c51cfe67-d235-4be9-bbf7-ba904312311d
+          enabled: 0
+          assembly: Unity.Muse.Sprite

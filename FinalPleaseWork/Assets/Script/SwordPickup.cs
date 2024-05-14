@@ -26,10 +26,7 @@ public class SwordPickup : MonoBehaviour
     void Update()
     {
         // Drop the sword with the Q key
-        if (Input.GetKeyDown(KeyCode.Q) && isHeld)
-        {
-            Drop();
-        }
+      
 
         // Trigger attack with left mouse button when the sword is held
         if (Input.GetMouseButtonDown(0) && isHeld)
