@@ -66,7 +66,6 @@ public class EnemyAI : MonoBehaviour
         Projectile projectileScript = projectile.GetComponent<Projectile>();
         if (projectileScript != null)
         {
-            // Assuming your Projectile script has methods to set the target and damage
             projectileScript.SetTarget(target);
             projectileScript.SetDamage(damage);
         }
@@ -76,5 +75,6 @@ public class EnemyAI : MonoBehaviour
         }
     }
 }
+
 
 }

@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
         ResumeGame();  // Ensure game state is set back to unpaused
     }
 
-    public void PlayerDied()
+ public void PlayerDied()
     {
         deathMenuPanel.SetActive(true);
         Time.timeScale = 0f; // Pause the game
@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.None; // Unlock the cursor
         Cursor.visible = true; // Make the cursor visible
     }
-   
+
 
 
 }
