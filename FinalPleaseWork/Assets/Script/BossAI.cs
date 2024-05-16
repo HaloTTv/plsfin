@@ -35,6 +35,7 @@ public class BossAI : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false; // Disable automatic rotation
         target = GameObject.FindGameObjectWithTag("Player").transform;
         if (target == null)
         {
@@ -47,11 +48,23 @@ public class BossAI : MonoBehaviour
         if (target != null)
         {
             agent.SetDestination(target.position);
+            RotateTowards(target.position); // Rotate towards the player each frame
+
             if (Time.time - lastAttackTime > attackInterval)
             {
                 PerformAction();
                 lastAttackTime = Time.time;
             }
+        }
+    }
+
+    void RotateTowards(Vector3 targetPosition)
+    {
+        Vector3 direction = (targetPosition - transform.position).normalized;
+        if (direction != Vector3.zero)
+        {
+            Quaternion lookRotation = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f); // Adjust the rotation speed as needed
         }
     }
 
