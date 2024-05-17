@@ -7,6 +7,7 @@ public class BossAI : MonoBehaviour
 {
     [Header("General Settings")]
     public float health = 100f;
+    public GameObject hitEffectPrefab; // Reference to the particle system prefab
 
     [Header("Shooting Settings")]
     public bool canShoot = true;
@@ -31,6 +32,8 @@ public class BossAI : MonoBehaviour
     public float stompSpawnRadius = 5f;  // Renamed to stompSpawnRadius
     public float launchForce = 10f;
     public float stompRadius = 10f;
+
+  
 
     void Start()
     {
@@ -66,6 +69,32 @@ public class BossAI : MonoBehaviour
             Quaternion lookRotation = Quaternion.LookRotation(direction);
             transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f); // Adjust the rotation speed as needed
         }
+    }
+
+    public void TakeDamage(float amount)
+    {
+        health -= amount;
+        if (health <= 0)
+        {
+            Die();
+        }
+        else
+        {
+            // Instantiate the hit effect at the boss's position
+            if (hitEffectPrefab != null)
+            {
+                Instantiate(hitEffectPrefab, transform.position, Quaternion.identity);
+            }
+        }
+    }
+
+    private void Die()
+    {
+        Debug.Log("Boss Died");
+        // Implement what happens when the boss dies, e.g., playing an animation, disabling the boss, etc.
+        Destroy(gameObject);  // This line destroys the boss GameObject; adjust as needed.
+
+        
     }
 
     void PerformAction()
